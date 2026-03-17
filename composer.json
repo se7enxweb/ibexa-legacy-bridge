@@ -1,12 +1,14 @@
 {
-    "name": "netgen/ibexa-legacy-bridge",
-    "description": "Ibexa bridge to eZ Publish Legacy",
-    "license": "GPL-2.0",
+    "name": "se7enxweb/ibexa-legacy-bridge",
+    "description": "Exponential Platform / Ibexa bridge to Exponential / eZ Publish Legacy",
+    "license": "GPL-2.0-or-later",
     "type": "ezplatform-bundle",
     "authors": [
         {
-            "name": "Netgen",
-            "website": "https://netgen.io"
+            "name": "7x"
+        },
+        {
+            "name": "Netgen"
         },
         {
             "name": "eZ Systems",
