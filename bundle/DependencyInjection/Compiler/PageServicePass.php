@@ -14,11 +14,11 @@ class PageServicePass implements CompilerPassInterface
 {
     public function process(ContainerBuilder $container)
     {
-        if (!$container->hasDefinition('ezpublish.fieldType.ezpage.pageService')) {
+        if (!$container->hasDefinition('ibexa.field_type.ezpage.pageService')) {
             return;
         }
 
-        $container->findDefinition('ezpublish.fieldType.ezpage.pageService')
+        $container->findDefinition('ibexa.field_type.ezpage.pageService')
             ->setClass(PageService::class);
     }
 }

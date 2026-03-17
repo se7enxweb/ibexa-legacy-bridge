@@ -48,8 +48,8 @@ services:
         class: eZ\Publish\Core\MVC\Legacy\Templating\Converter\PagePartsConverter
         public: false
         tags:
-            - {name: ezpublish_legacy.templating.converter, for: Ibexa\Core\FieldType\Page\Parts\Block}
-            - {name: ezpublish_legacy.templating.converter, for: Ibexa\Core\FieldType\Page\Parts\Zone}
+            - {name: ezpublish_legacy.templating.converter, for: MediataCom\MediataEzpageFieldtypeBundle\Core\FieldType\Page\Parts\Block}
+            - {name: ezpublish_legacy.templating.converter, for: MediataCom\MediataEzpageFieldtypeBundle\Core\FieldType\Page\Parts\Zone}
 
     ezpublish_legacy.templating.legacy_helper:
         class: eZ\Publish\Core\MVC\Legacy\Templating\LegacyHelper

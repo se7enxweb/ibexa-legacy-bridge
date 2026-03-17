@@ -6,7 +6,7 @@
  */
 namespace eZ\Publish\Core\MVC\Legacy\Templating\Adapter;
 
-use Ibexa\Core\FieldType\Page\Parts\Zone;
+use MediataCom\MediataEzpageFieldtypeBundle\Core\FieldType\Page\Parts\Zone;
 
 /**
  * Adapter for Page\Parts\Zone objects.
