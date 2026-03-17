@@ -5,10 +5,12 @@
     "type": "ezplatform-bundle",
     "authors": [
         {
-            "name": "7x"
+            "name": "7x",
+            "homepage": "https://se7enx.com"
         },
         {
-            "name": "Netgen"
+            "name": "Netgen",
+            "homepage": "https://netgen.io"
         },
         {
             "name": "eZ Systems",
@@ -17,7 +19,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "netgen/ezpublish-legacy-installer": "^2.2",
+        "se7enxweb/exponential-legacy-installer": "^2.2.1",
         "se7enxweb/exponential": "dev-main",
         "ibexa/core": "^4.6",
         "netgen/ibexa-xmltext-fieldtype": "^3.0",
@@ -46,7 +48,7 @@
     "extra": {
         "ezpublish-legacy-dir": "ezpublish_legacy",
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "4.0.x-dev"
         }
     }
 }
