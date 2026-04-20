@@ -24,7 +24,7 @@
         "ibexa/core": "^4.6",
         "netgen/ibexa-xmltext-fieldtype": "^3.0",
         "netgen/richtext-datatype-bundle": "^2.0",
-        "se7enxweb/mediata-ezpage-fieldtype-bundle": "^1.0.1",
+        "se7enxweb/mediata-ezpage-fieldtype-bundle": "^4.0",
         "twig/twig": "^3.13"
     },
     "require-dev": {
